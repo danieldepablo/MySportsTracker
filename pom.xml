@@ -5,23 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dani.mst</groupId>
-    <artifactId>my-sports-tracker-config</artifactId>
+    <artifactId>my-sports-tracker</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>MySportsTrakerApp</module>
+        <module>MySportsTrackerConfig</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-            <version>1.0.3.RELEASE</version>
-        </dependency>
-    </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
