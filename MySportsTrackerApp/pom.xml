@@ -6,9 +6,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>my-sports-traker-app</artifactId>
+    <artifactId>my-sports-tracker-app</artifactId>
     <packaging>war</packaging>
-    <name>my-sports-traker-app</name>
+    <name>my-sports-tracker-app</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
