@@ -9,3 +9,5 @@ spring:
           uri: https://github.com/danieldepablo/ConfigApps
 
 
+test:
+  hello: e

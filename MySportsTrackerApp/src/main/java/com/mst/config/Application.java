@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class Application {
     @Value("${test.hello}")
-    String name;
+    String name="a";
+
     @RequestMapping("/")
     public String home() {
         return "Hello World!"+name;
