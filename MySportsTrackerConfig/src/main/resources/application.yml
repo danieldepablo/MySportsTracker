@@ -20,6 +20,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/danieldepablo/MySportsTracker.git
-          basedir: /src/main/resources/config/
+          uri: https://github.com/danieldepablo/ConfigApps.git
+
 
